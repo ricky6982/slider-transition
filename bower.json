@@ -1,0 +1,22 @@
+{
+  "name": "slider-transition",
+  "version": "1.0.0",
+  "authors": [
+    "Ricky <ricky6982@gmail.com>"
+  ],
+  "description": "Crear Transiciones de Sliders con animaciones",
+  "keywords": [
+    "slider",
+    "transition",
+    "css3"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/ricky6982",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

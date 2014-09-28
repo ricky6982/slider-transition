@@ -1,0 +1,19 @@
+/* 
+    SliderTransition.css
+
+    Clases para Ocultar y Mostrar los Sliders, si estas utilizando Bootstrap 3 no es 
+    necesario agregar esta hoja de estilo en la pagina donde estan los Sliders.
+  
+    - Ricardo Sarapura
+*/
+
+.show {
+  display: block;
+}
+.hidden {
+  display: none;
+  visibility: hidden;
+}
+.invisible {
+  visibility: hidden;
+}
