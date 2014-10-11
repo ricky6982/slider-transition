@@ -40,6 +40,7 @@ function SliderTransition(prefijo, nodoActivo, numNodos, animation){
 
         for (var i = 1; i <= numNodos; i++) {
             $('#'+prefijo + i).addClass('animated hidden');
+            $('#'+prefijo + i).css("position", "absolute");
         }
         $('#'+prefijo+nodoActivo).removeClass('hidden');
         $('#'+prefijo+nodoActivo).parent().addClass('slider-container');

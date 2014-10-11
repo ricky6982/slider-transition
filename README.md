@@ -27,8 +27,8 @@ Agregar archivos al **head** del documento html:
     ...
     <link rel="stylesheet" href="bower_components/animate.css/animate.min.css">
     <script src="bower_components/jquery/dist/jquery.min.js"></script>
-    <link rel="stylesheet" href="bower_components/slider-transition/slider-transition.css">
-    <script src="bower_components/slider-transition/slider-transition.js"></script>
+    <link rel="stylesheet" href="bower_components/slider-transition/dist/slider-transition.css">
+    <script src="bower_components/slider-transition/dist/slider-transition.js"></script>
 </head>
 ```
 
