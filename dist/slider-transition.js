@@ -42,6 +42,8 @@ function SliderTransition(prefijo, nodoActivo, numNodos, animation){
             $('#'+prefijo + i).addClass('animated hidden');
         }
         $('#'+prefijo+nodoActivo).removeClass('hidden');
+        $('#'+prefijo+nodoActivo).parent().addClass('slider-container');
+        $('#'+prefijo+nodoActivo).parent().height($('#'+prefijo+nodoActivo).height());
 
 
 
@@ -54,6 +56,7 @@ function SliderTransition(prefijo, nodoActivo, numNodos, animation){
                 $(nodoInicio).addClass(inicio);
                     $(nodoFinal).removeClass('hidden');
                     $(nodoFinal).addClass(fin);
+                    $(nodoFinal).parent().height($(nodoFinal).height());
                 $(nodoInicio).one('webkitAnimationEnd mozAnimationEnd MSAnimationEnd oanimationend animationend', function(){
                     $(nodoInicio).addClass('hidden');
                 });

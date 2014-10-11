@@ -17,3 +17,7 @@
 .invisible {
   visibility: hidden;
 }
+
+.slider-container{
+    position: relative;
+}
