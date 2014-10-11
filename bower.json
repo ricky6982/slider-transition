@@ -1,6 +1,6 @@
 {
   "name": "slider-transition",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "main": "./slider-transition.js",
   "authors": [
     "Ricky <ricky6982@gmail.com>"
