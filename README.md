@@ -11,9 +11,10 @@ Slider-Transition utiliza dos librerías principales:
 - Jquery
 - Animate.css
 
-Es por que se recomienda que lo instales a través de Bower dentro de tu proyecto:
+Es por eso que se recomienda que se instale a través de Bower dentro de tu proyecto, desde la consola ejecuta el siguiente comando:
 
 ```
+    ..MiProyecto
     $ bower install slider-transition
 ```
 
@@ -31,4 +32,11 @@ Agregar archivos al **head** del documento html:
 </head>
 ```
 
+### Agregando los Sliders
 
+
+...
+
+### Inicializando
+
+...
