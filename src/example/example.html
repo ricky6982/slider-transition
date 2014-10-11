@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8" />
+    <title>Ejemplos de Slider-Transition</title>
+    <link rel="stylesheet" href="bower_components/bootstrap/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="bower_components/slider-transition/dist/slider-transition.css">
+    <link rel="stylesheet" href="bower_components/animate.css/animate.min.css">
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/slider-transition/dist/slider-transition.js"></script>
+</head>
+<body class="container">
+    <h1>Ejemplo 1 de Slider-Transition</h1>
+    <div>
+        <div id="slider-1">slider-1</div>
+        <div id="slider-2">slider-2</div>
+        <div id="slider-3">slider-3</div>
+        <div id="slider-4">slider-4</div>
+    </div>
+    <h3>Utilizando Botones Fuera del Slider para realizar el cambio de Slide:</h3>
+    <blockquote>
+        <h4><strong>Animación Derecha-Izquierda</strong></h4>
+        <button onclick="slider.adelante(1)">Ir a Slider-1</button>
+        <button onclick="slider.adelante(2)">Ir a Slider-2</button>
+        <button onclick="slider.adelante(3)">Ir a Slider-3</button>
+        <button onclick="slider.adelante(4)">Ir a Slider-4</button>
+        <h4><strong>Animación Izquierda-Derecha</strong></h4>
+        <button onclick="slider.atras(1)">Ir a Slider-1</button>
+        <button onclick="slider.atras(2)">Ir a Slider-2</button>
+        <button onclick="slider.atras(3)">Ir a Slider-3</button>
+        <button onclick="slider.atras(4)">Ir a Slider-4</button>
+    </blockquote>
+
+    <h1>Ejemplo 2 de Slider-Transicion</h1>
+    <div>
+        <div id="nodo-1" class="col-md-8 col-md-offset-2 col-xs-12">
+            <div class="well text-center">
+                    <legend>Elija una Opcion:</legend>
+                    <br><br>
+                    <button type="button" class="btn btn-success btn-lg" onclick="slider2.adelante(2)">Iniciar Sesión</button>
+                    <br><br>
+                    <button type="button" class="btn btn-lg btn-info" onclick="slider2.adelante(3)">Registrarse</button>
+            </div>
+        </div>
+        <div id="nodo-2" class="col-md-8 col-md-offset-2">
+            <form role="form">
+              <legend class="text-right"><strong><em>Iniciar Sesión</em></strong></legend>
+              <div class="form-group">
+                <label for="exampleInputEmail1">Email address</label>
+                <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputPassword1">Password</label>
+                <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+              </div>
+              <div class="form-group">
+                <label for="exampleInputFile">File input</label>
+                <input type="file" id="exampleInputFile">
+                <p class="help-block">Example block-level help text here.</p>
+              </div>
+              <div class="checkbox">
+                <label>
+                  <input type="checkbox"> Check me out
+                </label>
+              </div>
+              <button type="button" class="btn btn-warning btn-lg" onclick="slider2.atras(1)">Volver al Inicio</button>
+              <button type="submit" class="btn btn-default btn-lg">Submit</button>
+            </form>
+        </div>
+        <div id="nodo-3" class="col-md-8 col-md-offset-2 col-xs-12">
+            <div class="well">
+                <legend class="text-right"><strong><em>Registro</em></strong></legend>
+                <div class="form-group">
+                    <label for="exampleInputEmail1">Email address</label>
+                    <input type="email" class="form-control" id="exampleInputEmail1" placeholder="Enter email">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Contraseña</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <div class="form-group">
+                    <label for="exampleInputPassword1">Repita Contraseña</label>
+                    <input type="password" class="form-control" id="exampleInputPassword1" placeholder="Password">
+                </div>
+                <button type="button" class="btn btn-lg btn-warning" onclick="slider2.atras(1)">Volver al Inicio</button>
+                <button type="button" class="btn btn-lg btn-success">Confirmar</button>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        slider = new SliderTransition('slider-', 1, 4, 'zoom');
+
+        slider2 = new SliderTransition('nodo-', 1, 3, 'fade');
+    </script>
+
+</body>
+</html>

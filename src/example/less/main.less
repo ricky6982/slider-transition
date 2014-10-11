@@ -1,0 +1,28 @@
+
+*{
+    font-family: arial;
+}
+.slider-transition{
+    border: 3px dashed #46AF2C;
+    position: relative;
+}
+
+.generate-slider(4);
+
+@colores: #B4305E, #3366C4, #84CF30, #E88F40;
+
+.generate-slider(@n, @i: 1) when (@i =< @n) {
+    #slider-@{i} {
+        background-color: extract(@colores, @i);
+        font-size: 25px;
+        // height: (20*@i + 100px);
+        color: white;
+        line-height: 100px;
+        text-align: center;
+        vertical-align: middle;
+        width: 500px;
+    }
+    .generate-slider(@n, (@i + 1));
+}
+
+

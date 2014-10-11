@@ -1,0 +1,43 @@
+* {
+  font-family: arial;
+}
+.slider-transition {
+  border: 3px dashed #46AF2C;
+  position: relative;
+}
+#slider-1 {
+  background-color: #b4305e;
+  font-size: 25px;
+  color: white;
+  line-height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  width: 500px;
+}
+#slider-2 {
+  background-color: #3366c4;
+  font-size: 25px;
+  color: white;
+  line-height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  width: 500px;
+}
+#slider-3 {
+  background-color: #84cf30;
+  font-size: 25px;
+  color: white;
+  line-height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  width: 500px;
+}
+#slider-4 {
+  background-color: #e88f40;
+  font-size: 25px;
+  color: white;
+  line-height: 100px;
+  text-align: center;
+  vertical-align: middle;
+  width: 500px;
+}

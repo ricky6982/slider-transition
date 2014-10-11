@@ -1,0 +1,25 @@
+{
+  "name": "Ejemplo de Slider-Transition",
+  "version": "1.0.0",
+  "homepage": "https://github.com/ricky6982/slider-transition",
+  "authors": [
+    "RickySSD <ricky6982@gmail.com>"
+  ],
+  "description": "Muestra ejemplos de Transiciones de Diapositivas con diferentes formas y efectos.",
+  "keywords": [
+    "example",
+    "slider-transition"
+  ],
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "slider-transition": "~1.0.0",
+    "bootstrap": "~3.2.0"
+  }
+}
